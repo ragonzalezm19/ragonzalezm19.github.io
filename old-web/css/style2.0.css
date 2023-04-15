@@ -1,0 +1,70 @@
+#my-info
+{
+	background-color: #4ca64c;
+	/* background-color: #003f7f; */
+	color: #f2f2f2;
+}
+#my-info h5
+{
+	font-weight: bold;
+}
+.callout.primary
+{
+	background-color: #003f7f;
+	/* background-color: #4ca64c; */
+	color: #f2f2f2;
+}
+hr
+{
+	margin: 1.25rem 0rem 0rem 0rem;
+}
+#contact
+{
+	padding-top: 1.25rem;
+	background-color: #326598;
+	color: #f2f2f2;
+	padding-bottom: 1.25rem;
+	/* display: none; */
+}
+label
+{
+	color: #f2f2f2;
+}
+ul.menu > li > a
+{
+	color: #db9600;
+}
+ul.menu > li > a:hover
+{
+	color: #e5b54c;
+}
+ul#mis-contactos
+{
+	margin-top: 10rem;
+	text-align: right;
+	list-style-type: none;
+	margin-right: 1.25rem;
+}
+ul#mis-contactos > li
+{
+	margin-bottom: 0.25rem;
+}
+ul#mis-contactos > li > a
+{
+	font-style: italic;
+	color: #98b2cb;
+}
+ul#mis-contactos > li > a:hover
+{
+	color: #e0e7ef;
+	font-style: unset;
+	text-decoration: underline;
+}
+.T1
+{
+	font-weight: bold;
+}
+.T2
+{
+	font-style: italic;
+}
