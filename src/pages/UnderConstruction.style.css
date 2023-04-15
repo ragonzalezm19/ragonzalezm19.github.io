@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+
+.spinner {
+  width: 70px;
+  text-align: center;
+  align-self: end;
+  margin-bottom: 5px;
+}
+
+.spinner > div {
+  width: 10px;
+  height: 10px;
+  background-color: #333;
+
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+}
+
+.img {
+  border-radius: 5px;
+}
+
+@media (max-width: 425px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .spinner {
+    width: 40px;
+    margin-bottom: 3px;
+  }
+
+  .spinner > div {
+    width: 5px;
+    height: 5px;
+  }
+
+  .img {
+    width: 80vw;
+  }
+}
